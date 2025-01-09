@@ -32,8 +32,9 @@ main article{
 }
 
 main {
-	width: 70%;
 	background-color : red;
+	margin-left: 14%;
+	margin-right:14%
 }
 
 footer {
