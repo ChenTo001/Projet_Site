@@ -27,3 +27,9 @@ git push origin modication_page2_v2
 
 git pull origin master
 git merge modification_page2_v2
+
+
+nano commande_MarcMourangeou
+git add commande_MarcMourangeou
+git commit -m "commande Marc Mourangeou"
+git push origin master
