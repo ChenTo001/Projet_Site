@@ -1,0 +1,29 @@
+git init
+git clone https://github.com/ChenTo001/Projet_Site
+git commit -m "..."
+
+git branch modification_css
+git checkout modification_css
+nano style.css
+git add style.css
+git commit -m "premier commit css"
+git push origin modification_css
+
+git pull origin master
+
+git checkout master
+git merge modification_css
+cd css
+git add style.css
+git commit -m "premiere version css"
+git push origin master
+
+git branch modification_page2_v2
+git checkout modification_page2_v2
+nano page2.html
+git add page2.html
+git commit -m "..."
+git push origin modication_page2_v2
+
+git pull origin master
+git merge modification_page2_v2
