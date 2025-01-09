@@ -14,9 +14,21 @@ header {
 	background-color: blue;
 }
 
+h1{
+	backgroudn-color:yellow;
+	whith:auto;
+	
+}
+
 nav {
 	width: 100%;
 	background-color: pink;
+}
+
+main article{
+	display:flex;
+	flex-direction:row;
+	backgroud-color: pink;
 }
 
 main {
