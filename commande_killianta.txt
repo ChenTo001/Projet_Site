@@ -1,0 +1,16 @@
+->mkdir website
+->cd website
+->touch projet.txt
+->git init
+->git remote add origin "https://github.com/ChenTo001"
+->git config user.email "killiantaperso@gmail.com"
+->git config user.name "ChenTo001"
+->git add projet.txt
+->git commit -m "Premier fichier"
+->git push origin master
+->touch README.md
+->touch LICENSE.md
+->touch .gitignore
+->git add README.md LICENSE.md .gitignore
+->git commit -m "Fichiers recommandés"
+->git push origin master
