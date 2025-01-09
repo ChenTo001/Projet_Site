@@ -1,16 +1,59 @@
-->mkdir website
-->cd website
-->touch projet.txt
-->git init
-->git remote add origin "https://github.com/ChenTo001"
-->git config user.email "killiantaperso@gmail.com"
-->git config user.name "ChenTo001"
-->git add projet.txt
-->git commit -m "Premier fichier"
-->git push origin master
-->touch README.md
-->touch LICENSE.md
-->touch .gitignore
-->git add README.md LICENSE.md .gitignore
-->git commit -m "Fichiers recommandés"
-->git push origin master
+1  mkdir website
+2  ls
+3  cd website/
+4  touch projet.txt
+5  git init
+6  git remote add origin https://github.com/ChenTo001/Projet_Site.git
+7  git config user.email "killiantaperso@gmail.com"
+8  git config user.name "ChenTo001"
+9  git add "projet.txt"
+10  git commit -m "Premier Fichier"
+11  git push origin master
+12  touch README.md
+13  touch LICENSE.md
+14  touch .gitignore
+15  git add README.md LICENSE.md .gitignore 
+16  git commit -m "Les 3 fichiers Recommandés"
+17  git push origin master
+18  
+19  touch commande_killianta.txt
+20  git add "commande_killianta.txt"
+21  git commit -m "Commande GIT"
+22  git push origin master 
+24  git status
+25  git branch modification_page2
+26  git branch
+27  git checkout modification_page2 
+28  cd site/
+29  mkdir html
+30  cd html/
+31  touch page2.html
+32  nano page2.html 
+33  git add "page2.html"
+34  git commit -m "Première version page2"
+35  git push origin modification_page2
+36  git checkout master
+37  git branch
+38  git merge modification_page2 
+39  git add page2.html 
+41  git commit -m "Première version page2"
+42  git status
+43  git diff master modification_page2 
+(j'ai passé quelques étapes car j'avais une petite erreur je reprends ici dans la branch master)
+1  git merge modification_page2 
+2  git add page2.html 
+3  git commit -m "Première version page2.1" 
+4  git push origin master
+5  git pull origin master 
+6  git branch modification_index_v2
+7  git checkout modification_index_v2 
+8  nano index.html 
+9  git add index.html
+10  git commit -m "Deuxieme version de l'accueil"
+11  git push origin modification_index_v2 
+12  git checkout master 
+13  git pull
+14  git merge modification_index_v2 
+15  git add index.html 
+16  git commit -m "Deuxième version Accueil"
+17  git push origin master 
